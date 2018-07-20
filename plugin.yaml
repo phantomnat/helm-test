@@ -1,0 +1,8 @@
+name: "unittest"
+version: "0.1.0"
+usage: "unittest for helm charts"
+description: "Unit test for helm chart in YAML with node.js"
+ignoreFlags: false
+command: "helm-test"
+hooks:
+  install: "$HELM_PLUGIN_DIR/install-binary.sh"
